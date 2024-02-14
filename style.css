@@ -11,15 +11,6 @@
   visibility: hidden;
 }
 
-#card {
-  display: flex;
-  flex-direction: row; /* para que los elementos se muestren horizontalmente */
-  justify-content: center; /* para centrar horizontalmente */
-  align-items: center; /* para centrar verticalmente */
-  height: 100vh; /* para ocupar toda la altura de la pantalla */
-}
-
-
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
   #card {
@@ -34,7 +25,13 @@
     visibility: hidden;
     display: flex;
     top: 50px;
- 
+
+
+    display: flex;
+  flex-direction: row; /* para que los elementos se muestren horizontalmente */
+  justify-content: center; /* para centrar horizontalmente */
+  align-items: center; /* para centrar verticalmente */
+  height: 100vh; /* para ocupar toda la altura de la pantalla */
   }
 
   .envelope {
